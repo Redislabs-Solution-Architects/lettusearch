@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: io.lettuce:lettuce-core
+    versions:
+    - 6.0.3.RELEASE
+    - 6.1.0.RELEASE
+  - dependency-name: org.testcontainers:junit-jupiter
+    versions:
+    - 1.15.2
+  - dependency-name: org.testcontainers:testcontainers
+    versions:
+    - 1.15.2
