@@ -44,7 +44,7 @@ jar {
 }
 
 dependencies {
-    api 'io.lettuce:lettuce-core:6.1.0.RELEASE'
+    api 'io.lettuce:lettuce-core:6.1.2.RELEASE'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.slf4j:slf4j-simple'
